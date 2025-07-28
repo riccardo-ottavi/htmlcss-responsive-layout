@@ -27,20 +27,22 @@ main {
 
 #main-box {
     display: flex;
+    width: 100%;
+    /*debug*/
+    height: 500px;
+    
 }
 
 .left-box {
     width: 70%;
     /*debug*/
     background-color: yellow;
-    height: 500px;
 }
 
 .right-box {
     width: 30%;
     /*debug*/
     background-color: plum;
-    height: 500px;
 }
 
 /*regole banner social*/
@@ -83,4 +85,23 @@ footer {
     /*debug*/
     background-color: lightblue;
     height: 80px;
+}
+
+/*media queries*/
+/*tablet*/
+@media screen and (min-width: 760px) and (max-width: 1080px){
+    #main-box {
+        display: block;
+    }
+
+    .left-box {
+        width: 100%;
+        height: 40%;
+
+    }
+
+    .right-box {
+        width: 100%;
+        height: 60%;
+    }
 }
