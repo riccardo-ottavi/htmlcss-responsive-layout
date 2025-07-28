@@ -3,20 +3,29 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #F6F5F3;
 }
 
 /*regole header*/
 header{
-    /*debug*/
-    height: 70px;
-    background-color: blueviolet;
+    background-color: white
+}
+
+h1 {
+    color: orange;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 /*regole main*/
 main {
     height: 100%;
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
+}
+
+#food-description {
+    display: flex;
 }
 
 .title-main{
@@ -55,6 +64,11 @@ main {
 ul {
     display: flex;
     justify-content: space-between;
+}
+
+ul i {
+    width: 30px;
+    height: 30px;
 }
 
 #banner-zafferano {
