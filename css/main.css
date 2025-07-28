@@ -136,6 +136,7 @@ hr {
     display: flex;
     width: 100%;
     padding-top: 30px;    
+    padding-bottom: 50px;
 }
 
 /*regole sezione ricetta*/
@@ -166,7 +167,6 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #7C69A4;
-    height: 100px;
     color: white;
 }
 
@@ -176,7 +176,7 @@ footer a {
 }
 
 #left-footer {
-    width: 30%;
+    width: 50%;
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -219,10 +219,14 @@ footer a {
     
     #left-footer {
         margin: 0 auto;
+        width: 60%;
+        text-align: center;
     }
 
     #right-footer {
         margin: 0 auto;
+        width: 70%;
+        padding-bottom: 30px;
     }
 
     #banner-zafferano {
@@ -248,6 +252,19 @@ footer a {
 
     #banner-zafferano {
         display: none;
+    }
+
+    #hide-span {
+        display: none;
+    }
+
+    #food-description * {
+        font-size: 35px;
+    }
+
+    .social-btn {
+        padding: 5px;
+        padding-left: 19px;
     }
 
     main {
@@ -299,9 +316,14 @@ footer a {
     
     #left-footer {
         margin: 0 auto;
+        width: 100%;
+        text-align: center;
     }
 
     #right-footer {
         margin: 0 auto;
+        width: 80%;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
     }
 }
