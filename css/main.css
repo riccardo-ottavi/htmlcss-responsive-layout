@@ -256,6 +256,10 @@ footer a {
         flex-wrap: wrap;
     }
 
+    #tiramisu-pic {
+        max-width: 50%;
+    }
+
     .info div { 
         width: calc(100% / 3 - (10px / 3));
     }
@@ -339,12 +343,19 @@ footer a {
     #recepie-text {
         display: flex;
         align-items: center;
+        flex-direction: column;
     }
 
     #tiramisu-pic {
         float: none;
-        width: 100%;
+        display: block;
+        max-width: 80%;
         margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    #recepie-text p {
+        text-align: justify;
     }
 
     #main-box {
