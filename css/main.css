@@ -142,6 +142,7 @@ hr {
 #tiramisu-pic{
     float:left;
     max-width: 30%;
+    padding-right: 20px;
 }
 
 .clearfix::after {
@@ -171,17 +172,23 @@ footer {
 
 footer a {
     color: white;
+    text-decoration: underline;
 }
 
 #left-footer {
     width: 30%;
-    /*debug*/
-    
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 #right-footer {
-    width: 30%;
-    /*debug*/
+    width: 40%;
+    padding-right: 30px;
+}
+
+#right-footer * {
+    padding-right: 5px;
+    padding-top: 15px;
 }
 
 /*media queries*/
