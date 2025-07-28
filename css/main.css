@@ -1,5 +1,86 @@
+/*regole generali*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/*regole header*/
+header{
+    /*debug*/
+    height: 70px;
+    background-color: blueviolet;
+}
+
+/*regole main*/
+main {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.title-main{
+    /*debug*/
+    background-color: red;
+    height: 100px;
+}
+
+#main-box {
+    display: flex;
+}
+
+.left-box {
+    width: 70%;
+    /*debug*/
+    background-color: yellow;
+    height: 500px;
+}
+
+.right-box {
+    width: 30%;
+    /*debug*/
+    background-color: plum;
+    height: 500px;
+}
+
+/*regole banner social*/
+#banner-social{
+    /*debug*/
+    background-color: blue;
+    height: 80px;
+}
+
+#banner-zafferano {
+    /*debug*/
+    background-color: orange;
+    height: 80px;
+}
+
+#recepie {
+    /*debug*/
+    background-color: brown;
+    height: 380px;
+}
+
+/*regole footer*/
+footer {
+    /*debug*/
+    background-color: black;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-footer {
+    width: 30%;
+    /*debug*/
+    background-color: purple;
+    height: 80px;
+}
+
+#right-footer {
+    width: 30%;
+    /*debug*/
+    background-color: lightblue;
+    height: 80px;
 }
