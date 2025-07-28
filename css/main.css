@@ -13,7 +13,7 @@ body {
 
 /*regole header*/
 header{
-    background-color: white
+    background-color: white;
 }
 
 h1 {
@@ -24,6 +24,16 @@ h1 {
     font-size: 50px;
 }
 
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#food-description * {
+    color: #4E3969;
+    font-size: 50px;
+}
+
 /*regole main*/
 main {
     height: 100%;
@@ -31,19 +41,19 @@ main {
     margin: 0 auto;
 }
 
+#title-main {
+    padding-bottom: 30px; 
+    padding-top: 30px;
+}
+
 #food-description {
     display: flex;
 }
 
-.title-main{
-    
-}
-
 #main-box {
     display: flex;
-    width: 100%;
-   
-    
+    width: 84%;
+    padding-bottom: 30px;
 }
 
 .left-box {
@@ -58,12 +68,12 @@ main {
 
 .right-box {
     width: 30%;
+    background-color: white;
 }
 
 /*regole banner social*/
 #banner-social{
-    /*debug*/
-    
+    padding-bottom: 30px;
 }
 
 .social-btn {
@@ -82,14 +92,19 @@ ul i {
     height: 30px;
 }
 
+hr {
+    background-color: yellow;
+    width: 10%;
+}
+
 #banner-zafferano {
-    /*debug*/
+    padding-bottom: 30px;
 }
 
 #recepie {
     display: flex;
-    /*debug*/
-   
+    width: 100%;
+    padding-top: 30px;    
 }
 
 /*regole sezione ricetta*/
@@ -110,15 +125,16 @@ ul i {
 
 #recepie-text {
     display: flex;
-    width: 70%;
+    width: 95%;
+    padding-bottom: 30px;
 }
 
 /*regole footer*/
 footer {
-    /*debug*/
     display: flex;
     justify-content: space-between;
     background-color: #7C69A4;
+    height: 100px;
 }
 
 #left-footer {
