@@ -36,14 +36,14 @@ h3 {
 
 /*regole main*/
 main {
-    height: 100%;
-    width: 80%;
+    width: 72%;
     margin: 0 auto;
 }
 
 #title-main {
     padding-bottom: 30px; 
     padding-top: 30px;
+    margin: 0 auto;
 }
 
 #food-description {
@@ -52,7 +52,7 @@ main {
 
 #main-box {
     display: flex;
-    width: 84%;
+    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -99,6 +99,11 @@ hr {
 
 #banner-zafferano {
     padding-bottom: 30px;
+    width: 100%;
+}
+
+#banner-zafferano img {
+    max-width: 100%;
 }
 
 #recepie {
@@ -180,6 +185,14 @@ footer {
 
     #right-footer {
         margin: 0 auto;
+    }
+
+    #banner-zafferano {
+        width: 100%;
+    }
+
+    #banner-zafferano img {
+        width: 100%;
     }
 }
 /*mobile*/
