@@ -22,6 +22,7 @@ h1 {
     padding-left: 30px;
     font-family: 'Nerko One', cursive;
     font-size: 50px;
+    padding-bottom: 15px;
 }
 
 h3 {
@@ -56,6 +57,10 @@ main {
     padding-bottom: 30px;
 }
 
+main p {
+    line-height: 25px;
+}
+
 .left-box {
     width: 70%;
     /*debug*/
@@ -69,6 +74,12 @@ main {
 .right-box {
     width: 30%;
     background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.right-box * {
+    line-height: 40px;
 }
 
 /*regole banner social*/
@@ -80,6 +91,7 @@ main {
     padding:20px;
     background-color: white;
     border: 1px solid black;
+    border-radius: 30%;
 }
 
 ul {
@@ -130,7 +142,7 @@ hr {
 
 #recepie-text {
     display: flex;
-    width: 95%;
+    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -140,6 +152,11 @@ footer {
     justify-content: space-between;
     background-color: #7C69A4;
     height: 100px;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 
 #left-footer {
@@ -197,8 +214,23 @@ footer {
 }
 /*mobile*/
 @media screen and (max-width: 760px) {
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin: 0 auto;
+    }
+
     #banner-zafferano {
         display: none;
+    }
+
+    main {
+        width: 95%;
     }
 
     .clearfix::after {
@@ -240,6 +272,7 @@ footer {
 
     footer {
         display: block;
+        width: 100%;
         margin: 0 auto;
     }
     
