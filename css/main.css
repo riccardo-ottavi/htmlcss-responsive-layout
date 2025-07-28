@@ -120,6 +120,61 @@ footer {
     #main-box {
         display: block;
     }
+    .left-box {
+        width: 100%;
+        height: 40%;
+
+    }
+
+    .right-box {
+        width: 100%;
+        height: 60%;
+    }
+
+    ul span {
+        display: none;
+    }
+
+    footer {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #left-footer {
+        margin: 0 auto;
+    }
+
+    #right-footer {
+        margin: 0 auto;
+    }
+}
+/*mobile*/
+@media screen and (max-width: 760px) {
+    #banner-zafferano {
+        display: none;
+    }
+
+    .clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+    }
+
+
+    #recepie-text {
+        display: flex;
+        align-items: center;
+    }
+
+    #tiramisu-pic {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #main-box {
+        display: block;
+    }
 
     .left-box {
         width: 100%;
