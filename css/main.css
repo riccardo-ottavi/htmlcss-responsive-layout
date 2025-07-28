@@ -27,7 +27,7 @@ h1 {
 
 h3 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #food-description * {
@@ -45,6 +45,15 @@ main {
     padding-bottom: 30px; 
     padding-top: 30px;
     margin: 0 auto;
+}
+
+#gray-title-part {
+    color: #999999;
+}
+
+#hide-span {
+    font-weight: 700;
+    padding-left: 15px;
 }
 
 #food-description {
@@ -168,6 +177,7 @@ footer {
     justify-content: space-between;
     background-color: #7C69A4;
     color: white;
+    padding-bottom: 30px;
 }
 
 footer a {
