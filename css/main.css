@@ -218,6 +218,12 @@ footer a {
         height: 60%;
     }
 
+    .social-btn {
+        padding: 10px;
+        padding-left: 52px;
+        padding-right: 40px;
+    }
+
     ul span {
         display: none;
     }
