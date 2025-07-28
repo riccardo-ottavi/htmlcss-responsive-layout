@@ -44,7 +44,6 @@ main {
 #title-main {
     padding-bottom: 30px; 
     padding-top: 30px;
-    margin: 0 auto;
 }
 
 #gray-title-part {
@@ -62,7 +61,6 @@ main {
 
 #main-box {
     display: flex;
-    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -85,8 +83,6 @@ main p {
     background-color: white;
     padding-top: 30px;
     padding-left: 30px;
-    display: flex;
-    flex-direction: column;
 }
 
 .right-box * {
@@ -122,7 +118,6 @@ a {
 
 li {
     list-style: none;
-    
 }
 
 ul i {
@@ -137,7 +132,6 @@ hr {
 
 #banner-zafferano {
     padding-bottom: 30px;
-    width: 100%;
 }
 
 #banner-zafferano img {
@@ -145,8 +139,6 @@ hr {
 }
 
 #recepie {
-    display: flex;
-    width: 100%;
     padding-top: 30px;    
     padding-bottom: 50px;
 }
@@ -169,8 +161,6 @@ hr {
 }
 
 #recepie-text {
-    display: flex;
-    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -189,14 +179,12 @@ footer a {
 }
 
 #left-footer {
-    width: 50%;
     padding-top: 30px;
     padding-left: 30px;
 }
 
 #right-footer {
     width: 40%;
-    padding-right: 30px;
 }
 
 #right-footer * {
@@ -212,7 +200,6 @@ footer a {
     }
     .left-box {
         width: 100%;
-        height: 40%;
     }
 
     #hide-span {
@@ -230,19 +217,7 @@ footer a {
 
     .right-box {
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         padding-bottom: 30px;
-    }
-
-    .right-box *{
-       
-        flex-direction: row;
-    }
-
-    .title { 
-        width: 100%;
     }
 
     #note {
@@ -251,7 +226,6 @@ footer a {
 
     .info{
         display: flex;
-        flex-direction: row;
         padding-right: 20px;
         flex-wrap: wrap;
     }
@@ -265,7 +239,6 @@ footer a {
     }
 
     .social-btn {
-        padding: 10px;
         padding-left: 39px;
         padding-right: 23px;
     }
@@ -276,12 +249,10 @@ footer a {
 
     footer {
         display: block;
-        margin: 0 auto;
     }
     
     #left-footer {
         margin: 0 auto;
-        width: 60%;
         text-align: center;
     }
 
@@ -290,26 +261,13 @@ footer a {
         width: 70%;
         padding-bottom: 30px;
     }
-
-    #banner-zafferano {
-        width: 100%;
-    }
-
-    #banner-zafferano img {
-        width: 100%;
-    }
 }
 /*mobile*/
 @media screen and (max-width: 760px) {
 
     header {
-        width: 100%;
         display: flex;
         justify-content: center;
-    }
-
-    header h1 {
-        margin: 0 auto;
     }
 
     #banner-zafferano {
@@ -334,16 +292,9 @@ footer a {
     }
 
     .clearfix::after {
-    display: table;
-    content: '';
-    clear: both;
-    }
-
-
-    #recepie-text {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        display: table;
+        content: '';
+        clear: both;
     }
 
     #tiramisu-pic {
@@ -364,13 +315,11 @@ footer a {
 
     .left-box {
         width: 100%;
-        height: 40%;
-
     }
 
     .right-box {
         width: 100%;
-        height: 60%;
+        padding-bottom: 30px;
     }
 
     ul span {
@@ -379,20 +328,15 @@ footer a {
 
     footer {
         display: block;
-        width: 100%;
-        margin: 0 auto;
     }
     
     #left-footer {
-        margin: 0 auto;
-        width: 100%;
         text-align: center;
     }
 
     #right-footer {
         margin: 0 auto;
         width: 80%;
-        flex-wrap: wrap;
         padding-bottom: 30px;
     }
 }
